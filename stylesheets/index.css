@@ -854,21 +854,20 @@ main {
     visibility: hidden;
 }
 
+/* social-block for-h-h-p  */
 .for-h-h-p {
     padding: 5rem 0 5rem 0;
+    margin: 2rem auto;
 }
 
 /* ------------------------------- a jacket specific -------------------------------------
 ------------------------------------------------------------------------------------- */
 .product-spec-container {
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
     background-color: var(--card-color-1);
     padding: 50px 50px 50px 50px;
     margin: 0 0 0 0;
-    /* background-clip: content-box; */
-    /* background-clip: padding-box; */
     border-radius: 20px;
 }
 
@@ -971,12 +970,6 @@ main {
     width: 100%;
 }
 
-/* .order-review hr:nth-last-of-type(1),
-.order-review hr:nth-last-of-type(2) {
-    display: inline;
-    width: 50%;
-} */
-
 .order-review>h2 {
     color: var(--blue-1);
     text-align: center;
@@ -1011,9 +1004,6 @@ main {
     flex-wrap: wrap
 }
 
-/* .spAcing-span {
-    margin: 0 10px;
-} */
 .Card-info-flex {
     display: flex;
     flex-direction: column;
@@ -1024,7 +1014,6 @@ main {
     display: flex;
     justify-content: space-between;
     max-width: 308px;
-
 }
 
 .check-blocK {
@@ -1043,10 +1032,7 @@ main {
 }
 
 .check-outbox {
-    display: flex;
-    /* 980px do wrap */
-    /* flex-wrap: wrap;
-    justify-content: flex-start; */
+    display: flex
 }
 
 .check-outbox2 {
@@ -1066,8 +1052,6 @@ main {
 .inline-h6 {
     color: var(--blue-1);
 }
-
-
 
 .sub {
     display: grid;
@@ -1142,10 +1126,6 @@ main {
     z-index: 1;
 }
 
-/* .check-out-page button {
-    z-index: 1;
-} */
-
 .check-out-page h3 {
     z-index: 1;
     width: 70%;
@@ -1178,10 +1158,6 @@ main {
     margin-top: 10vh;
     z-index: 1;
 }
-
-/* .social-block.on-checkout {
-    z-index: 1;
-} */
 
 /* ---------------------------------------Media quarries --------------------------------------- 
 ------------------------------------------------------------------------------------------------*/
