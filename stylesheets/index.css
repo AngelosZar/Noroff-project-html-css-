@@ -64,7 +64,6 @@ body {
     background-color: var(--body-color-1);
     position: relative;
     overflow-x: hidden;
-
 }
 
 main {
@@ -167,7 +166,6 @@ fieldset {
 .two-column {
     max-width: var(--body-width);
     width: 100%;
-    /* box-sizing: border-box; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -182,9 +180,6 @@ fieldset {
     /* max-width: 600px; */
     object-fit: cover;
     display: flex;
-    /* justify-content: flex-start;over
-    align-items: flex-start; */
-    /* padding: 0 var(--spacing-sm) 0 0; */
 }
 
 .two-column>.column-right {
@@ -193,11 +188,7 @@ fieldset {
     justify-content: center;
     align-content: center;
     text-align: center;
-    /* align-items: center */
-    /* align-items: start; */
     flex-direction: column;
-    /* padding: 0 0 0 var(--spacing-xl); */
-    /* padding: 0; */
 }
 
 .card {
@@ -210,33 +201,15 @@ fieldset {
     justify-content: center;
     align-content: center;
     text-align: center;
-    /* padding: 0 5; */
 }
-
-/* ------------------------------------ ** product cards ** ----------------- */
-/* .content-container {
-    width: 100%;
-    max-width: var(--body-width);
-    display: flex;
-    justify-content: center;
-}
-
-.content-container a {
-    text-decoration: none;
-    justify-content: space-between;
-}
- */
-
 
 .card {
-    /* max-width: 35%; */
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
     box-shadow: 2px 4px 5px var(--blue-3);
     margin: 20px;
-    /* position: relative; */
     transition: 0.2s;
     border-radius: 0 0 30px 0;
     background-color: var(--body-color-1);
@@ -248,17 +221,11 @@ fieldset {
 .card:focus-within {
     transform: translateY(-1em);
     box-shadow: 7px 7px 6px var(--blue-3);
-    /* color blue1 or blue 3 */
 }
 
 .card-image {
     max-width: 230px;
     height: auto;
-    /* box-sizing: border-box; */
-    /* display: flex;
-    flex-flow: row nowrap;
-    align-items: center; */
-
 }
 
 .card-image>img {
@@ -268,14 +235,8 @@ fieldset {
 
 .card-text-field {
     background-color: var(--body-color-1);
-    /* max-width: 250px; */
     width: 100%;
     display: flex;
-    /* padding: 0px 10px; */
-    /* flex-direction: column;
-    justify-content: space-around;
-    text-align: center;
-    z-index: 1; */
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -299,11 +260,9 @@ fieldset {
 .overlay-container {
     position: relative;
     display: flex;
-    /* width: 55%; */
 }
 
 .overlay-image {
-    /* background-size: cover; */
     opacity: 1;
     display: block;
     width: 100%;
@@ -326,6 +285,7 @@ fieldset {
 
 .overlay-container:hover .overlay-image {
     opacity: 0.3;
+
 }
 
 .overlay-container:hover .overlay-content {
@@ -375,7 +335,6 @@ fieldset {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* on figma i have opposite coloring for the box shadow */
     box-shadow: 2px 4px 5px var(--blue-3);
 }
 
@@ -390,12 +349,6 @@ fieldset {
     color: var(--text-white);
 
 }
-
-/* // On click from figma 
-// Navigate to: "Checkout success_1";
-// Animate: Smart animate;
-animation-timing-function: ease-in-out;
-animation-duration: 200ms; */
 
 /* ------------------------------------ ** navbar ** ----------------- */
 header>a>img {
@@ -431,14 +384,6 @@ nav li:hover {
     color: var(--blue-3);
     text-shadow: 1px 1px 2px var(--blue-2);
 }
-
-/* nav li:checked {
-    background-color: var(--body-color-1);
-    color: var(--blue-3);
-    text-shadow: 1px 1px 2px var(--blue-2);
-    padding: 30px;
-    margin: 30px;
-} */
 
 nav ul {
     margin: 0;
@@ -643,8 +588,6 @@ blockquote::after {
     font-weight: 500;
     color: var(--blue-1);
     text-align: center;
-    /* padding: 5% 0; */
-    /* at media quaries after ca 650px */
 }
 
 .social-block-text {
@@ -670,7 +613,6 @@ blockquote::after {
     height: 130px;
     border: 3px solid var(--blue-2);
     border-radius: 0 25px 25px 25px;
-    /* box-shadow: 2px 4px 5px var(--blue-1); */
     box-shadow: 6px 4px 5px var(--blue-2);
     display: flex;
     flex-direction: column;
@@ -745,7 +687,6 @@ p.reviewer-name {
 }
 
 .about-us-container h6 {
-    /* display: flex; */
     z-index: 1;
     width: 70%;
     text-align: center;
@@ -759,22 +700,8 @@ p.reviewer-name {
 }
 
 em {
-    /* font-size: var(--h6-size); */
     font-weight: bolder;
-
 }
-
-/* .contact-us-body::before {
-    content: "";
-    background-image: url(../imgs/adam-bixby-Kkyq3sRX9pk-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-} */
 
 /* ------------------------------------ contact us -------------------------------------
 ------------------------------------------------------------------------------------- */
@@ -1006,6 +933,10 @@ main {
 
 }
 
+.b-small {
+    text-decoration: none;
+}
+
 .apply-promoCode {
     display: flex;
     justify-content: flex-start;
@@ -1091,7 +1022,6 @@ main {
     color: var(--blue-1);
     font-weight: 500;
     margin: 30px 0 10px 0;
-    /* text-align: center; */
 }
 
 /* ------------------------------- checkout success -------------------------------------
@@ -1102,7 +1032,6 @@ main {
     height: 90vh;
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
     margin-top: -16px;
@@ -1116,14 +1045,11 @@ main {
     /* maybe an another image 
     or the picture not to cover all body but just main  */
     background-size: cover;
-    /* object-position: top; */
     max-width: var(--body-width);
     width: 100%;
     margin: auto;
     background-repeat: no-repeat;
     position: absolute;
-    /* background-position-x: left;
-    background-position-y: center; */
     top: 20px;
     bottom: 0px;
     right: 0px;
@@ -1152,7 +1078,6 @@ main {
 }
 
 .social-block {
-    /* margin-top: 20px; */
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -1293,15 +1218,12 @@ main {
     /* ------------------------------------ ** product cards ** ----------------- */
 
     .card {
-        /* max-width: 35%; */
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         align-items: flex-start;
         box-shadow: 2px 4px 5px var(--blue-3);
         margin: 20px;
-        /* background-color: ; */
-        /* position: relative; */
     }
 
     .card-image>img {
@@ -1329,9 +1251,7 @@ main {
     }
 
     /* ------------------------------------ ** a jacket specific ** ----------------- */
-    /* .spes-pr-img {
-        width: 200px;
-    } */
+
     .spes-pr-img img {
         min-width: 230px;
     }
@@ -1353,14 +1273,12 @@ main {
 
 @media only screen and (max-width:800px) {
     .card {
-        /* max-width: 35%; */
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         align-items: flex-start;
         box-shadow: 2px 4px 5px var(--blue-3);
         margin: 20px;
-        /* position: relative; */
     }
 
     .card-image>img {
@@ -1439,6 +1357,10 @@ main {
 
     }
 
+    .overlay-content {
+        opacity: 1;
+    }
+
     /*  */
 
     #menu-checkbox:checked~nav {
@@ -1471,15 +1393,11 @@ main {
     }
 
     .social-media-reviews h3 {
-        /* font-size: var(--h4-size); */
         font-weight: 400;
-
     }
 
     .social-block h2 {
-        /* font-size: var(--h3-size); */
         font-weight: 400;
-
     }
 
     .social-media-logos img {
@@ -1493,12 +1411,10 @@ main {
     }
 
     .about-us-container h6 {
-        /* display: flex; */
         font-size: 1.8rem;
     }
 
     .about-us-container em {
-        /* display: flex; */
         font-size: 1.9rem;
     }
 
@@ -1615,11 +1531,6 @@ main {
 }
 
 @media only screen and (max-width:565px) {
-    /* .navbar {
-        .menu {
-            visibility: hidden;
-        }
-    } */
 
     .hero-content>h1 {
         bottom: 10px;
@@ -1634,7 +1545,6 @@ main {
     }
 
     .review-card-container {
-        /* margin: var(--spacing-sm, ); */
         padding: 4rem 0;
 
     }
@@ -1654,12 +1564,10 @@ main {
     }
 
     .about-us-container h6 {
-        /* display: flex; */
         font-size: 1.5rem;
     }
 
     .about-us-container em {
-        /* display: flex; */
         font-size: 1.6rem;
     }
 
@@ -1764,7 +1672,6 @@ main {
     /* -------------------checkout success -------------------*/
     .check-out-page h3 {
         margin: 5vh 0 5vh 0;
-        /* font-size: var(h4); */
     }
 
     .check-out-page>a {
@@ -1810,7 +1717,6 @@ main {
 
     .check-out-page h3 {
         margin: 5vh 0 5vh 0;
-        /* font-size: var(h4); */
         font-size: var(--h4-size);
     }
 

@@ -1,7 +1,10 @@
 # Noroff-project-html-css-
 Course assignment for html-css course
 
-Two notes for this project:
+Three notes for this project:
 
-~ on checkout page i have not used the novalidate attribute so the checkout can happen only on exress checkout by ckicking on the vipps logo.
+~ i have left may attributes not filled such us : name=""  id="  action=""  method=" with the intention of filling them up later when we are going to use javascript on projects.
+
 ~ only the product the explorer is clickables as was on the original design.
+
+~ if i had more time i would have done the overlays into slidshow gallery or a carousel.
